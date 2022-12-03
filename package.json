@@ -1,0 +1,24 @@
+{
+    "name": "@ezraobiwale/quaravel-validation",
+    "version": "0.1.0",
+    "description": "laravel style validation for Quasar",
+    "main": "dist/index.js",
+    "repository": "https://github.com/ezra-obiwale/quaravel-validation",
+    "author": "Ezra Obiwale <ezra.obiwale@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.17.6",
+        "@babel/core": "^7.17.5",
+        "@babel/preset-env": "^7.16.11",
+        "babel-preset-minify": "^0.5.1",
+        "jest": "^27.5.1",
+        "node-notifier": "^10.0.1"
+    },
+    "scripts": {
+        "build": "babel src -d dist",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@ezraobiwale/laravel-style-validation": "^3.0.0"
+    }
+}
