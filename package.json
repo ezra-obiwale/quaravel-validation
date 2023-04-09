@@ -1,6 +1,6 @@
 {
     "name": "@ezraobiwale/quaravel-validation",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "laravel style validation for Quasar",
     "main": "dist/index.js",
     "repository": "https://github.com/ezra-obiwale/quaravel-validation",

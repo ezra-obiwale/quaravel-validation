@@ -16,12 +16,12 @@ npm install @ezraobiwale/quaravel-validation
 ```html
 <template>
     <q-form>
-        <q-input :rules="validate('required|alpha')"></q-input>
+        <q-input :rules="getRules('required|alpha')"></q-input>
     </q-form>
 </template>
 
 <script setup>
-import { validate } from '@ezraobiwale/quaravel';
+import { getRules } from '@ezraobiwale/quaravel';
 </script>
 ```
 
