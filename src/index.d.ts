@@ -3,4 +3,4 @@ declare module '@ezraobiwale/quaravel-validation' {
     rules: string | string[],
     messages?: false | { [field: string]: false | { [rule: string]: string } }
   ): string;
-}
+};
