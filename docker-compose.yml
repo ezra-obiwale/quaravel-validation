@@ -7,5 +7,6 @@ services:
       target: base
     volumes:
       - ".:/app"
+      - ~/.npmrc:/root/.npmrc
     tty: true
     stdin_open: true
