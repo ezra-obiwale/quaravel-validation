@@ -1,8 +1,9 @@
 {
     "name": "@ezraobiwale/quaravel-validation",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "laravel style validation for Quasar",
     "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "repository": "https://github.com/ezra-obiwale/quaravel-validation",
     "author": "Ezra Obiwale <ezra.obiwale@gmail.com>",
     "license": "MIT",
