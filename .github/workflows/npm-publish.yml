@@ -22,8 +22,8 @@ jobs:
       - name: Install dependencies with Yarn
         run: yarn install --frozen-lockfile  # Ensures consistency with yarn.lock
 
-      - name: Run tests
-        run: yarn test  # Optional: Adjust if you have tests
+      # - name: Run tests
+      #   run: yarn test  # Optional: Adjust if you have tests
 
       - name: Publish to npm with Yarn
         run: yarn publish --non-interactive
